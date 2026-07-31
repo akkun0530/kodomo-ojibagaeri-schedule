@@ -7,38 +7,81 @@
   <title>こどもおぢばがえり｜8月1日 当日の予定</title>
   <meta name="description" content="2026年8月1日（土）こどもおぢばがえり当日の予定表">
   <style>
-    :root{--ink:#243443;--navy:#264b64;--sky:#dcecf2;--cream:#fbf7ed;--gold:#d9a441;--red:#bc5a4c;--line:#d8d1c4;--white:#fff}
+    :root{--ink:#243443;--navy:#264b64;--blue:#0875d1;--sky:#dcecf2;--cream:#fbf7ed;--yellow:#ffd45b;--gold:#d9a441;--red:#df6257;--pink:#ffd9df;--mint:#dff3df;--line:#d8d1c4;--white:#fff}
     *{box-sizing:border-box}
-    body{margin:0;color:var(--ink);background:linear-gradient(180deg,#e8f3f6 0,#fbf7ed 32%,#f5efe3 100%);font-family:"Noto Sans JP","Yu Gothic",Meiryo,sans-serif;line-height:1.65}
+    body{margin:0;color:var(--ink);background-color:#fff9e9;background-image:radial-gradient(circle at 12px 12px,rgba(8,117,209,.08) 2px,transparent 2.5px),linear-gradient(180deg,#dff4ff 0,#fff8df 36%,#fff2ec 100%);background-size:32px 32px,100% 100%;font-family:"Noto Sans JP","Yu Gothic",Meiryo,sans-serif;line-height:1.65}
     .page{width:min(920px,100%);margin:auto;padding:24px 16px 48px}
-    .hero{position:relative;overflow:hidden;background:var(--white);border:1px solid rgba(38,75,100,.14);border-radius:24px;box-shadow:0 12px 36px rgba(38,75,100,.12);padding:28px 24px 24px;text-align:center}
-    .hero:before,.hero:after{content:"";position:absolute;border-radius:50%;background:var(--sky);opacity:.65}.hero:before{width:180px;height:180px;left:-80px;top:-90px}.hero:after{width:140px;height:140px;right:-60px;bottom:-70px}
-    .official-link{position:relative;z-index:1;display:inline-flex;align-items:center;gap:6px;margin-bottom:12px;padding:7px 12px;border:1px solid rgba(38,75,100,.25);border-radius:999px;background:#fff;color:var(--navy);text-decoration:none;font-size:13px;font-weight:800}
-    .official-link:hover{background:var(--sky)}
+    .hero{position:relative;overflow:hidden;background:linear-gradient(145deg,#fff 0,#fffdf5 58%,#eaf8ff 100%);border:3px solid var(--yellow);border-radius:28px;box-shadow:0 14px 0 rgba(217,164,65,.18),0 20px 42px rgba(38,75,100,.13);padding:28px 24px 26px;text-align:center}
+    .hero:before,.hero:after{content:"";position:absolute;border-radius:50%;opacity:.72}.hero:before{width:190px;height:190px;left:-78px;top:-88px;background:var(--sky)}.hero:after{width:150px;height:150px;right:-54px;bottom:-72px;background:var(--pink)}
+    .official-link{position:relative;z-index:2;display:inline-block;margin-bottom:8px;padding:7px 12px;border-radius:16px;background:rgba(255,255,255,.82);transition:transform .2s ease}
+    .official-link:hover{transform:translateY(-2px)}
+    .official-link img{display:block;width:min(310px,74vw);height:auto}
+    .confetti{position:absolute;z-index:1;inset:0;pointer-events:none}.confetti span{position:absolute;font-size:clamp(18px,3vw,28px);filter:drop-shadow(0 2px 0 rgba(255,255,255,.9))}.confetti span:nth-child(1){top:15%;left:5%;transform:rotate(-16deg)}.confetti span:nth-child(2){top:10%;right:7%;transform:rotate(14deg)}.confetti span:nth-child(3){bottom:18%;left:7%;transform:rotate(10deg)}.confetti span:nth-child(4){bottom:13%;right:6%;transform:rotate(-12deg)}
+    .cheer{position:relative;z-index:1;display:inline-block;margin:10px 0 0;padding:5px 13px;border-radius:999px;background:var(--pink);color:#843c4a;font-size:13px;font-weight:900;letter-spacing:.04em}
     h1{position:relative;z-index:1;margin:4px 0 2px;font-size:clamp(27px,5vw,44px);letter-spacing:.08em;color:var(--navy)}
     .date{position:relative;z-index:1;font-size:clamp(18px,3vw,24px);font-weight:800;color:var(--red)}
     .lead{position:relative;z-index:1;margin:8px auto 0;max-width:610px;font-size:15px}
-    .notice{margin:18px 0 0;background:#fff8df;border:1px solid #ead39a;border-radius:14px;padding:10px 14px;font-weight:700;color:#70551b}
-    .schedule{margin-top:22px;background:rgba(255,255,255,.92);border-radius:22px;border:1px solid rgba(38,75,100,.14);box-shadow:0 10px 28px rgba(38,75,100,.09);padding:10px 22px}
+    .notice{position:relative;z-index:1;margin:18px 0 0;background:#fff4bd;border:2px dashed #e5ad31;border-radius:16px;padding:10px 14px;font-weight:800;color:#70551b}
+    .character-strip{margin-top:24px;padding:18px 18px 13px;border:2px solid #f0c33c;border-radius:24px;background:linear-gradient(135deg,rgba(255,255,255,.96),rgba(255,245,194,.96));box-shadow:0 10px 26px rgba(112,85,27,.1);text-align:center}.character-heading-row{display:flex;align-items:center;justify-content:center;gap:18px;margin-bottom:13px}.character-strip h2{margin:0;color:var(--navy);font-size:clamp(18px,3vw,24px);letter-spacing:.04em}.honwaka-logo{display:block;padding:3px;border-radius:12px;background:#fff;box-shadow:0 4px 10px rgba(38,75,100,.1)}.honwaka-logo img{display:block;width:min(250px,38vw);height:auto;border-radius:9px}.character-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:8px}.character-card{margin:0;padding:7px 5px 6px;border-radius:16px;background:#fff;box-shadow:0 5px 12px rgba(38,75,100,.1)}.character-card:nth-child(1){border-bottom:6px solid #75c8f2}.character-card:nth-child(2){border-bottom:6px solid #ffb96c}.character-card:nth-child(3){border-bottom:6px solid #f28cab}.character-card:nth-child(4){border-bottom:6px solid #81d69b}.character-card:nth-child(5){border-bottom:6px solid #d996e8}.character-card:nth-child(6){border-bottom:6px solid #f0a66c}.character-card img{display:block;width:100%;height:122px;object-fit:contain;border-radius:11px;background:#fff}.character-card figcaption{margin-top:5px;font-size:12px;font-weight:900;color:var(--navy)}.character-source{margin:9px 0 0;font-size:11px;color:#6b747a}.character-source a{color:var(--navy);font-weight:800}
+    .schedule{position:relative;margin-top:26px;background:rgba(255,255,255,.95);border-radius:24px;border:2px solid rgba(8,117,209,.18);box-shadow:0 12px 30px rgba(38,75,100,.1);padding:10px 22px}
+    .schedule:before{content:"TODAY'S ADVENTURE";position:absolute;top:-14px;left:24px;padding:3px 12px;border-radius:999px;background:var(--blue);color:#fff;font-size:11px;font-weight:900;letter-spacing:.09em}
     .item{display:grid;grid-template-columns:74px 52px 1fr;gap:14px;align-items:start;padding:18px 0;border-bottom:1px solid var(--line)}
-    .item:last-child{border-bottom:0}.time{font-size:20px;font-weight:900;color:var(--navy);font-variant-numeric:tabular-nums}.icon{width:48px;height:48px;border-radius:14px;background:var(--sky);display:grid;place-items:center;font-size:25px}.item:nth-child(3n+2) .icon{background:#f9e9c9}.item:nth-child(3n) .icon{background:#efdeda}
-    .title{font-size:19px;font-weight:900;letter-spacing:.02em}.sub{margin-top:3px;font-size:14px;color:#5c6971}.tag{display:inline-block;margin-top:6px;padding:3px 9px;border-radius:999px;background:#fff2c8;color:#725716;font-size:12px;font-weight:800}.maplink{display:inline-flex;align-items:center;gap:5px;margin-top:8px;padding:6px 10px;border-radius:999px;background:var(--navy);color:#fff;text-decoration:none;font-size:12px;font-weight:800}.maplink:hover{opacity:.88}.mapbox{margin-top:18px;background:#fff;border:1px solid rgba(38,75,100,.14);border-radius:20px;padding:20px;box-shadow:0 10px 28px rgba(38,75,100,.08);text-align:center}.mapbox h2{margin:0 0 6px;color:var(--navy);font-size:21px}.mapbox p{margin:0 auto 14px;max-width:620px;font-size:14px}.mapbutton{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 18px;border-radius:14px;background:var(--navy);color:#fff;text-decoration:none;font-weight:900}.mapbutton:hover{opacity:.9}.mapnote{margin-top:9px;font-size:11px;color:#66757d}
+    .item:last-child{border-bottom:0}.time{display:inline-block;padding:2px 7px;border-radius:9px;background:#edf8ff;font-size:20px;font-weight:900;color:var(--navy);font-variant-numeric:tabular-nums}.icon{width:48px;height:48px;border-radius:15px;background:var(--sky);display:grid;place-items:center;font-size:25px;box-shadow:0 4px 0 rgba(38,75,100,.1)}.item:nth-child(3n+2) .icon{background:#fff0bd}.item:nth-child(3n) .icon{background:#f7dfe4}.item:nth-child(4n) .icon{background:var(--mint)}
+    .title{font-size:19px;font-weight:900;letter-spacing:.02em}.sub{margin-top:3px;font-size:14px;color:#5c6971}.tag{display:inline-block;margin-top:6px;padding:3px 9px;border-radius:999px;background:#fff2c8;color:#725716;font-size:12px;font-weight:800}.maplink{display:inline-flex;align-items:center;gap:5px;margin-top:8px;padding:6px 10px;border-radius:999px;background:var(--navy);color:#fff;text-decoration:none;font-size:12px;font-weight:800;box-shadow:0 3px 0 rgba(21,48,66,.22)}.maplink:hover{transform:translateY(-1px);box-shadow:0 4px 0 rgba(21,48,66,.22)}.mapbox{margin-top:20px;background:linear-gradient(135deg,#fff 0,#ecf9ff 100%);border:2px dashed #74bde8;border-radius:22px;padding:22px;box-shadow:0 10px 28px rgba(38,75,100,.08);text-align:center}.mapbox h2{margin:0 0 6px;color:var(--navy);font-size:21px}.mapbox p{margin:0 auto 14px;max-width:620px;font-size:14px}.mapbutton{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 18px;border-radius:14px;background:var(--blue);color:#fff;text-decoration:none;font-weight:900;box-shadow:0 4px 0 #075a9e}.mapbutton:hover{transform:translateY(-1px);box-shadow:0 5px 0 #075a9e}.mapnote{margin-top:9px;font-size:11px;color:#66757d}
     .footer{margin-top:22px;padding:20px;text-align:center;font-size:13px;color:#62717a}.footer a{color:var(--navy);font-weight:800}.small{font-size:11px;margin-top:8px}
-    @media(max-width:560px){.page{padding:12px 10px 32px}.hero{border-radius:18px;padding:20px 13px}.schedule{border-radius:18px;padding:4px 14px}.item{grid-template-columns:62px 43px 1fr;gap:9px;padding:15px 0}.time{font-size:17px}.icon{width:41px;height:41px;border-radius:12px;font-size:22px}.title{font-size:17px}}
-    @media print{@page{margin:12mm}body{background:#fff}.page{width:100%;padding:0}.hero,.schedule,.mapbox{box-shadow:none}.hero,.item,.mapbox{break-inside:avoid;page-break-inside:avoid}.footer{margin-top:10px}.item{padding:10px 0}}
+    @media(max-width:560px){.page{padding:12px 10px 32px}.hero{border-radius:20px;padding:19px 12px 22px}.confetti span:nth-child(3),.confetti span:nth-child(4){display:none}.character-strip{padding:15px 8px 10px;border-radius:19px}.character-heading-row{flex-direction:column;gap:8px;margin-bottom:10px}.honwaka-logo img{width:min(265px,76vw)}.character-grid{grid-template-columns:repeat(3,1fr);gap:6px}.character-card{padding:5px 4px}.character-card img{height:88px}.character-card figcaption{font-size:10px}.schedule{border-radius:19px;padding:5px 13px}.schedule:before{left:14px}.item{grid-template-columns:62px 43px 1fr;gap:9px;padding:15px 0}.time{font-size:17px}.icon{width:41px;height:41px;border-radius:12px;font-size:22px}.title{font-size:17px}}
+    @media print{@page{margin:12mm}body{background:#fff}.page{width:100%;padding:0}.hero,.schedule,.mapbox{box-shadow:none}.hero,.item,.mapbox{break-inside:avoid;page-break-inside:avoid}.confetti,.character-strip,.schedule:before{display:none}.footer{margin-top:10px}.item{padding:10px 0}}
   </style>
 </head>
 <body>
   <main class="page">
     <header class="hero">
+      <div class="confetti" aria-hidden="true"><span>⭐</span><span>🎈</span><span>🎉</span><span>☀️</span></div>
       <a class="official-link" href="https://kodomo-ojibagaeri.com/" target="_blank" rel="noopener" aria-label="こどもおぢばがえり公式サイトを開く">
-        こどもおぢばがえり公式サイト ↗
+        <img src="assets/official-link-banner.png" alt="こどもおぢばがえり公式サイト">
       </a>
       <h1>当日の予定</h1>
       <div class="date">2026年8月1日（土）</div>
       <p class="lead">時間を見ながら、みんなで楽しく行動しましょう。</p>
+      <div class="cheer">🌈 たのしい一日をすごそう！</div>
       <div class="notice">暑さ対策のため、帽子・飲み物を忘れずに。こまめに休憩しましょう。</div>
     </header>
+
+    <section class="character-strip" aria-labelledby="character-heading">
+      <div class="character-heading-row">
+        <h2 id="character-heading">🎉 ほんわか村の仲間たちもいっしょ！</h2>
+        <a class="honwaka-logo" href="https://tenrikyo-shonenkai.org/honwaka/cat/" target="_blank" rel="noopener" aria-label="ほんわか村 イラスト集を開く">
+          <img src="assets/honwaka-illustration-logo.jpg" alt="ほんわか村 イラスト集">
+        </a>
+      </div>
+      <div class="character-grid">
+        <figure class="character-card">
+          <img src="assets/honwaka-pickey-10.png" alt="元気にジャンプするピッキー">
+          <figcaption>ピッキー<br>さあ、出発！</figcaption>
+        </figure>
+        <figure class="character-card">
+          <img src="assets/honwaka-pickey-13.png" alt="笑顔で歩くピッキー">
+          <figcaption>ピッキー<br>元気いっぱい！</figcaption>
+        </figure>
+        <figure class="character-card">
+          <img src="assets/honwaka-pickey-15.png" alt="手を振るピッキー">
+          <figcaption>ピッキー<br>たのしんでね！</figcaption>
+        </figure>
+        <figure class="character-card">
+          <img src="assets/honwaka-komugi-06.png" alt="両手を広げて喜ぶコムギ">
+          <figcaption>コムギ<br>わーい！</figcaption>
+        </figure>
+        <figure class="character-card">
+          <img src="assets/honwaka-ribbon-04.png" alt="ポンポンを持って応援するリボン">
+          <figcaption>リボン<br>みんなを応援！</figcaption>
+        </figure>
+        <figure class="character-card">
+          <img src="assets/honwaka-mac-04.png" alt="手を上げて元気に返事をするマック">
+          <figcaption>マック<br>はーい！</figcaption>
+        </figure>
+      </div>
+      <p class="character-source">イラスト：天理教少年会「<a href="https://tenrikyo-shonenkai.org/honwaka/cat/" target="_blank" rel="noopener">ほんわか村 イラスト集</a>」</p>
+    </section>
 
     <section class="schedule" aria-label="当日の予定">
       <article class="item"><div class="time">09:00</div><div class="icon">🚩</div><div><div class="title">西P集合</div><div class="sub">集合後、人数を確認して移動します。</div><a class="maplink" href="https://kodomo-ojibagaeri.com/#images" target="_blank" rel="noopener">🗺️ 公式地図で確認</a></div></article>
@@ -61,7 +104,7 @@
 
     <footer class="footer">
       行事の詳細は <a href="https://kodomo-ojibagaeri.com/event/" target="_blank" rel="noopener">こどもおぢばがえり公式サイト</a> をご確認ください。
-      <div class="small">本ページは参加グループ向けの非公式予定表です。公式サイトの画像は転載していません。</div>
+      <div class="small">本ページは参加グループ向けの非公式予定表です。公式リンク用バナーと、天理教少年会「ほんわか村 イラスト集」の配布素材・ロゴ画像を使用しています。</div>
     </footer>
   </main>
 </body>
